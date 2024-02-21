@@ -3,28 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev:admin": "next dev ./projects/admin-app",
-    "dev:public": "next dev ./projects/public-app",
-    "start:admin": "next start ./projects/admin-app",
-    "start:public": "next start ./projects/public-app",
-    "build:admin": "next build ./projects/admin-app",
-    "build:public": "next build ./projects/public-app",
+    "dev": "next dev ./projects/web",
+    "start": "next start ./projects/web",
+    "build": "next build ./projects/web",
     "lint": "next lint"
   },
-  "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.1.0"
-  },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0"
-  }
+  "workspaces": [
+    "./projects/*"
+  ]
 }

@@ -18,8 +18,8 @@
       }
     ],
     "paths": {
-      "@admin-app/*": ["./projects/admin-app/*"],
-      "@public-app/*": ["./projects/public-app/*"],
+      "@web/*": ["projects/web/*"],
+      "@common/*": ["projects/common/*"],
     },
     "baseUrl": "./"
   },
