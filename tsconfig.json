@@ -18,8 +18,10 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@admin-app/*": ["./projects/admin-app/*"],
+      "@public-app/*": ["./projects/public-app/*"],
+    },
+    "baseUrl": "./"
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]

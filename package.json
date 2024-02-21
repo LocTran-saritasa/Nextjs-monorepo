@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
+    "dev:admin": "next dev ./projects/admin-app",
+    "dev:public": "next dev ./projects/public-app",
+    "start:admin": "next start ./projects/admin-app",
+    "start:public": "next start ./projects/public-app",
+    "build:admin": "next build ./projects/admin-app",
+    "build:public": "next build ./projects/public-app",
     "lint": "next lint"
   },
   "dependencies": {
